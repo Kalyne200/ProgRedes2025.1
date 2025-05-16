@@ -52,4 +52,5 @@ if __name__=="__main__":
     print(f"\n QUANTIDADE DE TEMPO DA MINERAÇÃO FOI: ")
     print(time.time() - inicio)
 
- # Fonte de estudo: Hashtag treinamentos. 
+ # Fonte de estudo usada para desenvolver o código:
+ # aulas do Hashtag treinamentos. 
