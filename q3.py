@@ -40,7 +40,7 @@ def ler():
 
     # --- LER METADADOS ESPECÍFICOS ---
 
-    # Posições dos metadados (convertidas para decimal) AQUI SERA USADA APENAS AS INFORMACÇ~EOS EM HEXA : 
+    # Posições dos metadados (convertidas para decimal) AQUI SERA USADA APENAS AS INFORMAÇÕEOS EM HEXA : 
     # 0X100 PARA DESCUBRIR A POSICAO, LARGURA, ORIENTAÇAÕ E MODELO E EM SEGUIDA O VALOR DOS METADADOS
     # INDENTIFICADORES DE POSIÇÕES:
     
