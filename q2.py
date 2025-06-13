@@ -1,7 +1,7 @@
 from hashlib import sha256
 import time
 
-''' DISCENTE: KALYNE RODRIGUES DE MELO, MATRICULA: 20232014050032'''
+
 '''
 Portanto, minerar é: a) escolher um nonce (começando de zero, por exemplo); b)
 juntar com os bytes da entrada; c) calcular o hash desse conjunto; d) verificar se o
