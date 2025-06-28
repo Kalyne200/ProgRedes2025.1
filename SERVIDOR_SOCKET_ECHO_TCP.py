@@ -3,7 +3,7 @@ import socket
 print(" *** SERVIDOR TCP SOCKET *** ")
 
 # INFORMAÇÕES DE CONFIGURAÇÃO
-HOST = "10.24.23.45" # informe o IP do servidor 
+HOST = "INFORME AQUI O SEU IP" # informe o IP do servidor 
 PORT = 12345
 CODE = "utf-8"
 
