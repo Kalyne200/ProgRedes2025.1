@@ -1,7 +1,7 @@
 import socket
 
 # informações para conxecão do SOCKET
-HOST = "10.24.23.45"
+HOST = "INFORME AQUI O SEU IP"
 PORT = 50000
 CODE = "utf-8"
 
