@@ -21,7 +21,7 @@ def tratarCliente(sockCon,origem):
             comando = sockCon.recv(1024).decode(code)
             print('recebi de {origem} -> {comando.sockCon()}')
             for servidor_socket in allClientes:
-                if servidor_socket!=  sockCon:
+                if servidor_socket !=  sockCon:
                     servidor_socket(comando)
 
                     if comando[:3] == "DIR":
