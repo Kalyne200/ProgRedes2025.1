@@ -56,6 +56,7 @@ def responde_DOW(nome_do_arquivo, conexao):
         conexao.send(adicao('ERRO: Arquivo não encontrado'))
 
 def responde_MDA(mascara, conexao):
+    nomes_recebidos = 
     mascaras = mascara.split(';')
     lista_de_arquivos = []
     for m in mascaras:
@@ -117,3 +118,6 @@ def main():
         conexao, cliente = servidor_socket.accept()
         threading.Thread(target=tratar_cliente, args=(conexao, cliente)).start()
 
+# ESTE CODIGO NÃO FOI APRESENTADO ONTEM EM SALA DE AULA,
+# FOI FEITO APARTIR DE UM CODIGO ESCRITO NO CADERNO, PODE CONTER
+# ERROS
