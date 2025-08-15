@@ -1,5 +1,5 @@
 import socket, ssl, json, time
-import mytokens
+import MEUS_TOKEN
 
 HOST  = "api.telegram.org"
 PORT  = 443
@@ -101,6 +101,7 @@ def main():
         print ("-------------")
         time.sleep(2)
     sock_tcp.close()
+
 
 
 main()
