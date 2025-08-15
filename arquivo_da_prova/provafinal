@@ -1,5 +1,5 @@
 import socket, ssl, json, time
-import mytokens
+import TOKEN
 
 HOST  = "api.telegram.org"
 PORT  = 443
