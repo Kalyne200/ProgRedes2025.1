@@ -2,7 +2,7 @@ import socket
 import threading
 import os
 
-ip = '127.0.0.1'
+ip = 'INFORME O IP'
 porta = 2121
 arquivos = 'arquivos'
 code = 'utf-8'
@@ -75,3 +75,4 @@ def tratarServidor():
     thread_servidor.join()
 
     cliente_socket.close()
+
