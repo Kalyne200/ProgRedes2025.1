@@ -2,7 +2,7 @@ import socket
 import threading
 import os
 
-ip = 'localhost' # ou 127.0.0.1'
+ip = 'INFORME O IP'
 porta = 2121 # ou 50000
 
 code = "utf-8"
@@ -79,3 +79,4 @@ while True:
     print(f'\n Aguardando conexão.....')
     sockCon,origem = servidor_socket.accept()
     threading.Thread(target=tratarCliente,args=(sockCon,origem)).start()
+
